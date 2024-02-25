@@ -53,10 +53,10 @@ a:focus {
 /* Introduction
 ------------------------------------*/
 header {
-  background-image: url(images/clark-van-der.jpg);
+  background-image: url(images/col.jpg);
   background-size: contain;
   border-bottom: 1px solid silver;
-  color: rgb(255, 1, 1);
+ color: rgb(255, 0.4, 0.9);
 }
 header a {
   border: 1px solid #ffffff;
@@ -84,7 +84,7 @@ header a {
   background: repeating-linear-gradient(
     to bottom,
     #013e77,
-    rgba(25, 182, 4, 0.3),
+    rgba(25, 182, 1, 0.3),
     #1a015f
   );
   display: inline-block;
