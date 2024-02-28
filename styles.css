@@ -53,10 +53,11 @@ a:focus {
 /* Introduction
 ------------------------------------*/
 header {
-  background-image: url(images/col.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.9)),url(images/col.jpg);
   background-size: contain;
   border-bottom: 1px solid silver;
  color: rgb(255, 0.4, 0.9);
+ color: red;
 }
 header a {
   border: 1px solid #ffffff;
@@ -64,9 +65,12 @@ header a {
   padding: 4px;
 }
 .Expose {
-  font-weight: 600;
-  font-style: italic;
+  font-weight: 1000;
+  font-size: 20px;
+  font-style:bold, italic;
   color: rgb(255, 208, 1);
+  color: green ;
+  
 }
 
 /* All About Project
@@ -118,7 +122,7 @@ header a {
 }
 .Game {
   background-image: radial-gradient(ellipse at top, 
-  #0c09c4, transparent),radial-gradient(ellipse at bottom,
+  black, transparent),radial-gradient(ellipse at bottom,
   #4d4c1b, transparent), radial-gradient(ellipse at top, 
   #c00808, transparent),radial-gradient(ellipse at bottom,
   #4d1b46, transparent);
